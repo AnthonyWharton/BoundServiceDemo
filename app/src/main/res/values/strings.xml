@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BoundServiceDemo</string>
+    <string name="service_name">BoundServiceDemo Service</string>
+</resources>
