@@ -90,7 +90,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         captureAndInitialiseUI();
-        Log.d(LOG_NAME, isBound.toString());
         if (!isBound) {
             Intent serviceIntent = new Intent(getApplicationContext(), BoundService.class);
             this.bindService(serviceIntent, serviceConnection, Context.BIND_AUTO_CREATE);
